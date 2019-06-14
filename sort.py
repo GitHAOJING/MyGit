@@ -64,3 +64,8 @@ def merge(left, right):
         result.append(right.pop(0))
     return result
 print(mergeSort([33, 22, 5532, 12, 44, 22, 11, 3, 5, 1]))
+
+
+def quickSort(list, left, right):
+    if left >= right:
+        return list
